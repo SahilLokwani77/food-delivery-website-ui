@@ -11,3 +11,7 @@ This project is **purely front-end** — no backend or database required.
 - Easy to customize
 
 ## 📂 Project Structure
+index.html # Main HTML file
+style.css # Stylesheet
+script.js # JavaScript interactions
+assets/ # Images, SVGs, and icons
