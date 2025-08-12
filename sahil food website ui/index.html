@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+  </head> 
+  <body>
+    <div class="hero">
+      <div class="navbar horizontal">
+        <div><img src="assets/JTGeats.png" alt="" /></div>
+        <nav class="horizontal">
+          <div><a href="#">Home</a></div>
+          <div><a href="#">About</a></div>
+          <div><a href="#">Services</a></div>
+          <div><a href="#">Contact</a></div>
+        </nav>
+        <div class="horizontal navbtns">
+          <div><img src="assets/Card.svg" alt="" /></div>
+          <div><img src="assets/Group.png" alt="" /></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-left vertical">
+          <div class="vertical hero-text">
+            <div class="hero-title">Authentic Home Food in India</div>
+            <div class="hero-subtitle">
+              JTGeats is a courier service in which authentic home cook food is
+              delivered to a customer.
+            </div>
+          </div>
+          <div class="hero-search horizontal">
+            <input type="text" placeholder="Search food you love" />
+            <button>Search</button>
+          </div>
+        </div>
+        <div class="hero-img"><img src="assets/cuate.svg" alt="" /></div>
+      </div>
+    </div>
+    <div class="home-content">
+      <div class="home-kitchen">
+        <p>Home Kitchen</p>
+        <div class="home-kitchen-items"></div>
+      </div>
+      <div class="popular-items vertical">
+        <div><p>Popular Items</p></div>
+        <div class="corosoul-wrapper horizontal">
+          <div class="left-arrow">
+            <img src="assets/leftArrow.svg" alt="" />
+          </div>
+          <div class="swiper myswiper">
+            <div class="swiper-wrapper"></div>
+          </div>
+          <div class="right-arrow"><img src="assets/Arrow.svg" alt="" /></div>
+        </div>
+      </div>
+      <div class="requestbtn horizontal">Request a dish</div>
+
+      <div id="requestDishModal" class="modal">
+        <div class="modal-content vertical">
+          <h2>Request a Dish</h2>
+          <div class="input-div">  
+              <input type="text" placeholder="Your Dish" />
+            </div>
+          <div class="horizontal">
+            <button class="cancel-btn">Cancel</button>
+            <button class="submit-btn">Submit Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vedio-section">
+      <div class="vedio-section-container vertical">
+        <div class="vedio-section-text ">
+          <div class="vedio-section-text-title">We are providing best</div>
+          <div class="vedio-section-text-title">
+            home cooked food delivery service.
+          </div>
+          <div class="vedio-section-text-subtitle" style="margin-top: 10px">
+            Away from home and craving the tasty homemade recipes?
+          </div>
+          <div class="vedio-section-text-subtitle">
+            Choose from a selection of our delicious home cooked dishes .
+          </div>
+        </div>
+        <div class="vedio-section-video vertical">
+          <div class="vedio-section-video-bg">
+            <img src="assets/vediobg.png" alt="" />
+          </div>
+          <div class="playbtn"><img src="assets/Arrow.svg" alt="" /></div>
+          <div class="vedio-section-video-bg">
+            <img src="assets/filter.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="vedio-section-background"></div>
+    </div>
+
+    <div class="feedback-section">
+      <div class="feedback-section-container horizontal">
+        <div class="feedback-section-left">
+          <div class="feedback-section-text">
+            <p>Do you have a question or want to become a seller?</p>
+            <p>
+              Fill this form and our manager will contact you next 48 hours.
+            </p>
+          </div>
+          <form>
+            <div class="horizontal">
+              <div class="form-upper-input">
+                <input type="text" name=" " placeholder="Your message" id="" />
+              </div>
+              <div class="form-upper-input">
+                <input type="text" name=" " placeholder="Your message" id="" />
+              </div>
+            </div>
+            <div class="form-lower-input">
+              <input type="text" name=" " placeholder="Your message" id="" />
+            </div>
+            <button>Submit</button>
+          </form>
+        </div>
+        <div class="feedback-section-right">
+          <img src="assets/deliveryboy.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="footer vertical ">
+        <div class="footer-links horizontal">
+          <div><img src="assets/JTGeats.png" alt="" /></div>
+        <div class="horizontal">
+          <div><a href="#">Home</a></div>
+          <div><a href="#">About</a></div>
+          <div><a href="#">Menu</a></div>
+          <div><a href="#">Blog</a></div>
+          <div><a href="#">contact</a></div>
+        </div>
+        <div class="horizontal navbtns">
+          <div><img src="assets/Facebook.svg" alt="" /></div>
+          <div><img src="assets/insta.svg" alt="" /></div>
+        </div>
+      </div>
+      <div class="line"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
